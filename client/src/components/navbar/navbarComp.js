@@ -8,6 +8,8 @@ export const navbarComp = () => {
                 <img className="logo" src={logo} alt="LOGO" height="100px" width="100px" />
                 <p>Home</p>
                 <p>Tracker</p>
+                <input className="searchFeild" type="text" placeholder="Search"/>
+                <div className="sbt-btn"></div>
                 <img className="userDp" src={logo} alt="user" height="50px" width="50px"/>
             </div>
         </div>

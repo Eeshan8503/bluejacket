@@ -14,7 +14,7 @@ body{
 }
 .navbar p{
     color: #000000;
-    margin-left: 10%;
+    margin-left: 5%;
     font-size: 2em;
     font-family: 'Exo', sans-serif;
     cursor: pointer;
@@ -37,4 +37,28 @@ body{
     margin-left: 5%;
     border-radius: 50%;
     border: 3px solid #8E05C2
+}
+.searchFeild{
+    margin-left: 2%;
+    width: 40%;
+    height: 2em;
+    border-radius: 5px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    font-family: 'Exo', sans-serif;
+    font-size: 1em;
+    padding: 10px;
+    border: none;
+}
+
+.sbt-btn{
+    height: 3.3em;
+    width: 3.3em;
+    background-size: 3.3em 3.3em;
+    background-image: url('./../../../assets/glass.png');
+    background-repeat: no-repeat, repeat;
+    background-color: black;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    cursor: pointer;
 }

@@ -16,6 +16,7 @@ const NavbarMob = () => {
             <div className="contents" style={toggle?{display:"flex"}:{display:"none"}}>
                 <p>Home</p>
                 <p>Tracker</p>
+                <p>Search</p>
                 <img className="userDpp" src={logo} alt="user" height="50px" width="50px"/>
             </div>
         </div>
