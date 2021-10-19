@@ -7,9 +7,10 @@ body{
 }
 .navbar{
     display: flex;
-    background-color: #8E05C2;
+    background-color: #700B97;
     height: fit-content;
     align-items: center;
+    justify-content: space-around;
 }
 .navbar p{
     color: #000000;
@@ -17,6 +18,15 @@ body{
     font-size: 2em;
     font-family: 'Exo', sans-serif;
     cursor: pointer;
+    text-shadow:
+    0 0 7px #8E05C2,
+    0 0 10px #8E05C2,
+    0 0 21px #8E05C2,
+    0 0 42px #700B97,
+    0 0 82px #700B97,
+    0 0 92px #700B97,
+    0 0 102px #700B97,
+    0 0 151px #700B97;
 }
 .userDp{
     margin-left: auto;
@@ -26,4 +36,5 @@ body{
 .logo{
     margin-left: 5%;
     border-radius: 50%;
+    border: 3px solid #8E05C2
 }

@@ -1,9 +1,8 @@
-import CNavbar from './components/navbar/navbarComp'
-
+import Navbar from "./components/navbar/navbar";
 function App() {
   return (
     <div className="App">
-      <CNavbar/>
+      <Navbar/>
     </div>
   );
 }

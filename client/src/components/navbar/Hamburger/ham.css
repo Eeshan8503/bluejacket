@@ -1,0 +1,51 @@
+
+  
+  .burger {
+    display: flex;
+    height: 80px;
+    width: 80px;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s;
+    margin-left: 25%;
+  }
+  
+  .ham {
+    position: absolute;
+    width: 50px;
+    height: 6px;
+    background-color: black;
+    border-radius: 5px;
+    transition: all .5s ease-in-out;
+  }
+  
+  .ham::before, .ham::after {
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 6px;
+    background-color: black;
+    border-radius: 5px;
+    transition: all .5s ease-in-out;
+  }
+  
+  .ham::before {
+    transform: translateY(16px);
+  }
+  
+  .ham::after {
+    transform: translateY(-16px);
+  }
+  
+  .burger.open .ham {
+    transform: translate(-50px);
+    background: transparent;
+  }
+  
+  .burger.open .ham::after {
+    transform: translate(50px, -4px) rotate(45deg);
+  }
+  
+  .burger.open .ham::before {
+    transform: translate(50px, -4px) rotate(-45deg);
+  }
