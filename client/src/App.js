@@ -1,6 +1,6 @@
 import Navbar from "./components/navbar/navbar";
-import Maincard from "./components/navbar/cards/maincard.js";
-import Card from "./components/navbar/cards/Card";
+import Maincard from "./components/cards/maincard.js";
+import Card from "./components/cards/Card";
 function App() {
   return (
     <div className="App">
