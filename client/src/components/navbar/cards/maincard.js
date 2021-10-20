@@ -15,7 +15,6 @@ import './maincard.css';
               <option value="amazon.com" >amazon - {props.amazon}</option>
               <option value="flipkart.com">flipkart - {props.flipkart}</option>
               <option value="snapdeal">snapdeal - {props.snapdeal}</option>
-
           </select>
         </div>
       </div>

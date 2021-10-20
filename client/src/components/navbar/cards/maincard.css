@@ -1,10 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
 
-*, *::before, *::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
 body {
   font-family: "Noto Sans", sans-serif;
   color: #000000;
@@ -17,11 +12,13 @@ body {
   justify-content: center;
 }
 .card {
-  background-color:#8E05C2;
+  background-color:black;
+  border: 0.15em solid #8E05C2;
   margin: 1rem;
   border-radius: 0.2rem;
   min-width: 28rem;
   display: flex;
+  color: #8E05C2;
 }
 .card__img {
   width: 14rem;
