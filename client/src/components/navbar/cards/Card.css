@@ -1,0 +1,27 @@
+.card-container{
+    width: 300px;
+    overflow: hidden;
+    box-shadow:0px 0px 15px -5px;
+    background-color: #8E05C2;
+    margin: 1rem;
+    border-radius: 5px;
+    transition: 0.3s;
+    animation: ease-in;
+    cursor: pointer;
+    display: grid;
+    align-items: start;
+}
+
+.card-container:hover{
+    transform: scale(1.1);
+    box-shadow:0px 0px 15px 0px;
+}
+
+.image-container img{
+    overflow: hidden;
+    height: 200px;
+}
+
+.card-title{
+    padding-left: 5rem;
+}
